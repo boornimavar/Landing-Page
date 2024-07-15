@@ -1,0 +1,208 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    width: 100%;
+    overflow-x: hidden;  
+}
+
+html {
+    width: 100%;
+    overflow-x: hidden;  
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 10px;
+    margin: 0;
+    width: 100%;
+    position: fixed;  
+    top: 0; 
+    z-index: 1000; 
+}
+
+#section-one {
+    height: 70vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding-top: 60px;  
+    background-color: blueviolet;
+}
+
+.logo-container {
+    display: flex;
+    align-items: center;
+}
+
+.links ul {
+    display: flex;
+    flex-direction: row;
+    padding: 0;
+    gap: 10px;
+    list-style-type: none;
+    margin: 0;
+}
+
+.links li {
+    background-color: rgb(127, 23, 131);
+    
+}
+
+.links a {
+    text-decoration: none;
+    color: white;
+    padding: 5px 10px;
+    display: block;
+}
+
+.main {
+    display: flex;
+    align-content: center;
+    flex-direction: row;
+    gap:20px;
+    padding: 50px;
+    flex: 1;
+    background-color: rgb(127, 23, 131);
+    padding-top: 20px;
+    
+}
+
+.contents {
+    align-self: center;
+    flex: 2;
+    padding: 10px;
+    background-color: hotpink;
+    border-radius: 20px;
+    width:30px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.img-holder {
+    align-self: center;
+    justify-content: center;
+    flex: 1;
+    width:30px;
+    height: auto;
+    margin-top: 20px;
+}
+
+.img-holder img{
+    object-fit: contain;
+    width:100%;
+    align-self: center;
+    align-self: center;
+}
+
+
+.intro {
+    padding: 30px;
+}
+
+#section-two, #section-three, #section-four {
+    height: 60vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.box-holder {
+   
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    margin-top: 20px;
+    width: 800px;
+  
+}
+
+.box {
+    width: 80px;
+    height: 80px;
+    border-radius: 10px;
+    border: 1px solid hotpink;
+}
+
+.boxes {
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+   background-color: rgb(209, 158, 221);
+   padding: 20px;
+   flex:1;
+}
+
+.quote {
+    color:white;
+    display: flex;
+    flex-direction: column;
+    padding: 100px;
+    background-color: rgba(114, 61, 163, 0.945);
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+}
+
+#section-four {
+    height: 40vh;
+    width: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.signup-box {
+    display: flex;
+    justify-content: space-around;
+    background-color: rgba(182, 107, 224, 0.658);
+    height: 100px;
+    padding: 20px;
+    width: 60%;
+    border-radius: 20px;
+}
+
+.sign-btn {
+    display: flex;
+    align-items: center;
+}
+
+footer {
+    background-color: rgba(29, 2, 37, 0.808);
+    background-color: rgb(127, 23, 131);
+    height: 30px;
+    padding: 20px;
+    text-align: center;
+}
+
+button{
+    padding: 10px;
+    border:none;
+    cursor: pointer;
+    border-radius: 10px;
+    
+}
+
+p,button {
+    font-family: "Playwrite AU QLD", cursive;
+    font-optical-sizing: auto;
+  }
+  
+h1,.signup-box{
+    font-family: "Kanit", sans-serif;
+    font-weight: 600;
+    font-style: italic;
+}  
